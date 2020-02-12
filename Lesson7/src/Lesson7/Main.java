@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Cy_27 cy_27 = new Cy_27(20, 25, 15, 260, "Yellow");
+		Cy_27 cy_27 = new Cy_27( new PlaneDrive(), 260, "Yellow");
 		cy_27.startTime();
 		cy_27.planeDeparture();
 		cy_27.planedrive.up();
@@ -15,5 +15,6 @@ public class Main {
 		cy_27.NuclearImpact();
 		cy_27.TurboSpeed();
 		cy_27.landingPlane();
+		
 	}
 }
